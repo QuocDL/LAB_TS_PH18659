@@ -35,7 +35,8 @@ const LoginPage = () => {
       );
       toast.success("Login Successfull!");
       localStorage.setItem("token", data.token);
-      navigate("/admin/products");
+      navigate("/");
+      location.reload()
     } catch (error) {
       toast.error("Login Failed! - " + error);
       console.log(error);

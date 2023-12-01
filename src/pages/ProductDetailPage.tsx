@@ -29,8 +29,8 @@ const ProductDetailPage = () => {
     return (
         
         <div className="px-[16%] w-[100%vw]">
-          <h1 className="font-medium mt-[25px] text-[22px]">Detail Product {ProductDetail?.title}</h1>
-            <div className="">
+          <h1 className="font-medium mt-[25px] text-[15px]">Detail Product {ProductDetail?.title}</h1>
+            <div className="mt-[50px]">
                 <div className="flex gap-[50px]">
                     <div className="mt-[10px]">
                         <img src={ProductDetail?.image} alt="" className="w-[360px]" />
